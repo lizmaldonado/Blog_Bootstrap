@@ -1,6 +1,6 @@
 div [class^="col-xs-1"]
 {
-  border: 10px solid black;
+  border: 5px solid black;
   text-align: center;
   background-color: pink;
 }
@@ -56,12 +56,23 @@ div [class^="col-xs-1"]
   margin: 0.4vw;
   background: rgb(164, 96, 6);
 }
+.contenedorByO
+{
+
+  padding: 0.5vw;
+  border: 1px solid black;
+  margin: 0.4vw;
+  background: rgb(164, 96, 6);
+}
 .contenedorImg1
 {
   margin: 0 auto;
   padding: 0.5vw;
   min-width: 100px;
-  border: 5px solid black;
+  border-top:3px solid black;
+  border-left:0px solid black;
+  border-bottom:3px solid black;
+  border-right:3px solid black;
   text-align: center;
   background: rgb(217, 194, 151);
   min-height: 263.78px;
@@ -69,20 +80,26 @@ div [class^="col-xs-1"]
 .contenedorTexto1
 {
   margin: 0 auto;
-
-    padding: 0.5vw;
-    min-width: 100px;
-    border: 5px solid black;
-    text-align: center;
-    background: rgb(217, 194, 151);
-    min-height: 263.78px;
+  padding: 0.5vw;
+  min-width: 100px;
+  border-top:3px solid black;
+  border-left:3px solid black;
+  border-bottom: 3px solid black;
+  border-right:0px solid black;
+  text-align: center;
+  background: rgb(217, 194, 151);
+  min-height: 263.78px;
 }
+
 .contenedorImg2
 {
   margin: 0 auto;
   padding: 0.5vw;
   min-width: 100px;
-  border: 5px solid black;
+  border-top:3px solid black;
+  border-left:3px solid black;
+  border-bottom:3px solid black;
+  border-right:0 solid black;
   text-align: center;
   background: rgb(217, 194, 151);
   min-height: 270.78px;
@@ -93,20 +110,21 @@ div [class^="col-xs-1"]
 
     padding: 0.5vw;
     min-width: 100px;
-    border: 5px solid black;
+    border-top:3px solid black;
+    border-left:0px solid black;
+    border-bottom:3px solid black;
+    border-right:3px solid black;
     text-align: center;
     background: rgb(217, 194, 151);
     min-height: 270.78px;
 }
 .contenedorComent
 {
-  margin: 0 auto;
-
-    padding: 0.5vw;
-    min-width: 100px;
-    border: 5px solid black;
-    text-align: center;
-    background: rgb(217, 194, 151);
+  margin-top: 0.5vw;
+  padding: 0.5vw;
+  min-width: 100px;
+  border: 3px solid black;
+  background: rgb(217, 194, 151);
 }
 .contenidoIzq
 {
@@ -122,14 +140,20 @@ img.post2
 {width: 82%;}
 .contenedorBuscar
 {
+  padding: 0.5vw;
+
+  border: 3px solid black;
   background-color: lightgreen;
-    height: 200px;
-    width: 100%;
+  width: 100%;
 
 }
 .contenedorOpciones
 {
-  background-color: lightpink;
-  height: 730px;
+
+    padding: 0.5vw;
+    border: 3px solid black;
+    background-color: lightpink;
     width: 100%;
 }
+.list-group
+{margin-bottom:0; }

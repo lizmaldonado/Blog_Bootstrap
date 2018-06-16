@@ -6,7 +6,9 @@
     <title>Blog de música</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/musica.css">
-<link rel="stylesheet" href="https://use.fontawes…m/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 
 
@@ -72,7 +74,12 @@
                    <img class="post1"src="img/carlosvives.jpg" alt="post2"/>
                  </div> <!-- final del contenedor img1-->
                  <div class="contenedorComent col-xs-12">
-                   <i class="fas fa-user">Comentario ...</i>
+                   <div class="input-group">
+                     <span class="input-group-addon">
+                       <span class="glyphicon glyphicon-user"></span>
+                       </span>
+                       <textarea name="comentario1" rows="1" cols="38"class="form-control" placeholder="Comentario ... "></textarea>
+                   </div> <!-- final del input group-->
                  </div> <!-- final del contenedor coment1-->
                </div> <!-- final del contenedor IyT1-->
 
@@ -92,22 +99,47 @@
                      </p>
                  </div> <!-- final del contenedor Texto2-->
                  <div class="contenedorComent col-xs-12">
-                   <i class="fas fa-user">Comentario</i>
+                    <div class="input-group">
+                       <span class="input-group-addon">
+                         <span class="glyphicon glyphicon-user"></span>
+                       </span>
+                       <textarea name="comentario2" rows="1" cols="38"class="form-control" placeholder="Comentario ... "></textarea>
+                    </div> <!-- final del input group-->
                  </div> <!-- final del contenedor Coment2-->
                </div> <!-- final del contenedor IyT2 -->
              </div> <!-- final del contenido de la Izquierda -->
              <div class="contenidoDer col-xs-4">
+                <div class="contenedorByO  col-xs-12">
                  <div class="contenedorBuscar  col-xs-4">
-                   <i class="fab fa-sistrix">Buscar..</i>
-                 </div><!-- final del contenedor Buscar-->
-                 <div class="contenedorOpciones  col-xs-4">
-                   <ul>
-                     <li>Carro</li>
-                     <li>Moto</li>
-                     <li>Bus</li>
-                     <li>Avion</li>
-                   </ul>
-                 </div><!-- final del contenedor Opciones-->
+                     <div class="input-group">
+                       <span class="input-group-addon">
+                         <span class="glyphicon glyphicon-search"></span>
+                       </span>
+                       <input type="text" class="form-control" placeholder="Buscar por...">
+                     </div>
+                   </div><!-- final del contenedor Buscar-->
+                </div> <!-- final del contenedor ByO-->
+                <div class="contenedorByO  col-xs-12">
+                  <div class="contenedorOpciones  col-xs-4">
+                   <div class="list-group">
+                      <a href="#" class="list-group-item ">Discografia seleccionada</a>
+                      <a href="#" class="list-group-item">Grandes discos</a>
+                      <a href="#" class="list-group-item">Grandes temas</a>
+                      <a href="#" class="list-group-item ">Críticas</a>
+                      <a href="#" class="list-group-item">Top 10</a>
+                      <a href="#" class="list-group-item">Cantantes</a>
+                      <a href="#" class="list-group-item ">Taylor Swift</a>
+                      <a href="#" class="list-group-item">Katy Perry</a>
+                      <a href="#" class="list-group-item">Amaia Montero</a>
+                      <a href="#" class="list-group-item ">Dragon Hills</a>
+                      <a href="#" class="list-group-item">Novedades de la semana</a>
+                      <a href="#" class="list-group-item">Shakira</a>
+                      <a href="#" class="list-group-item">Maluma</a>
+                      <a href="#" class="list-group-item">Nacho Vegas habla de música</a>
+                     </div>
+                   </div> <!-- final del contenedor Opciones-->
+                 </div><!-- final del contenedor ByO-->
+
              </div><!-- final del contenido Derecho-->
            </div> <!-- cierre de contenido-->
 
