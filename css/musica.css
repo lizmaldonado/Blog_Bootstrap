@@ -48,26 +48,25 @@ div [class^="col-xs-1"]
 
 }
 .contenedorIyT
-{
 
+{
   min-height: 240px;
   padding: 0.5vw;
   border: 1px solid black;
   margin: 0.4vw;
   background: rgb(164, 96, 6);
 }
-.contenedorImg
+.contenedorImg1
 {
   margin: 0 auto;
-
-    padding: 0.5vw;
-    min-width: 100px;
-    border: 5px solid black;
-    text-align: center;
-    background: rgb(217, 194, 151);
-    height: 263.78px;
+  padding: 0.5vw;
+  min-width: 100px;
+  border: 5px solid black;
+  text-align: center;
+  background: rgb(217, 194, 151);
+  min-height: 263.78px;
 }
-.contenedorTexto
+.contenedorTexto1
 {
   margin: 0 auto;
 
@@ -76,11 +75,38 @@ div [class^="col-xs-1"]
     border: 5px solid black;
     text-align: center;
     background: rgb(217, 194, 151);
+    min-height: 263.78px;
+}
+.contenedorImg2
+{
+  margin: 0 auto;
+  padding: 0.5vw;
+  min-width: 100px;
+  border: 5px solid black;
+  text-align: center;
+  background: rgb(217, 194, 151);
+  min-height: 270.78px;
+}
+.contenedorTexto2
+{
+  margin: 0 auto;
+
+    padding: 0.5vw;
+    min-width: 100px;
+    border: 5px solid black;
+    text-align: center;
+    background: rgb(217, 194, 151);
+    min-height: 270.78px;
 }
 .contenedorComent
 {
-  width: 90%;
-  background: rgb(217, 194, 151);
+  margin: 0 auto;
+
+    padding: 0.5vw;
+    min-width: 100px;
+    border: 5px solid black;
+    text-align: center;
+    background: rgb(217, 194, 151);
 }
 .contenidoIzq
 {
@@ -90,10 +116,10 @@ background-color: lightgrey;
 {
 background-color: lightgrey;
 }
-img.post2
-{width: 95%;}
 img.post1
-{height: 90%;}
+{width: 95%;}
+img.post2
+{width: 82%;}
 .contenedorBuscar
 {
   background-color: lightgreen;
