@@ -4,11 +4,6 @@ div [class^="col-xs-1"]
   text-align: center;
   background-color: pink;
 }
-.blog-body
-{
-
-/*  background-color: rgba(8, 45, 94, 0.95);*/
-}
 .encabezado
 {
   background-color: black;
@@ -54,7 +49,7 @@ div [class^="col-xs-1"]
   padding: 0.5vw;
   border: 1px solid black;
   margin: 0.4vw;
-  background: rgb(164, 96, 6);
+  background: rgb(217, 194, 151);
 }
 .contenedorByO
 {
@@ -116,7 +111,7 @@ div [class^="col-xs-1"]
     border-right:3px solid black;
     text-align: center;
     background: rgb(217, 194, 151);
-    min-height: 270.78px;
+    min-height: 274.11px;
 }
 .contenedorComent
 {
@@ -143,7 +138,7 @@ img.post2
   padding: 0.5vw;
 
   border: 3px solid black;
-  background-color: lightgreen;
+  background-color:rgb(217, 194, 151);
   width: 100%;
 
 }
@@ -152,8 +147,52 @@ img.post2
 
     padding: 0.5vw;
     border: 3px solid black;
-    background-color: lightpink;
+    background-color: rgb(217, 194, 151);
     width: 100%;
 }
 .list-group
 {margin-bottom:0; }
+
+@media only screen and (max-width: 768px)
+ {
+    /* For mobile phones: */
+    [class*="col-"]
+     {
+        width: 100%;
+      }
+      .img-social
+      {
+        width: 2.5em;
+        height: 2.5em;
+        padding: 0;
+        margin: 0;
+  }
+  .redes-sociales
+  {
+    text-align: center;
+    margin-top: 1rem;
+
+  }
+  .logo-img
+  {
+    width:8rem;
+    height: 8rem;
+    margin-left: .5rem;
+  }
+  nav
+  {
+   text-align: center;}
+  }
+  .nav>li{padding-right: 0; padding-left: 0;}
+  .contenido{margin-top: 0;
+  padding-left: 0;padding-right: 0;}
+  .contenedorIyT, .contenedorImg1,.contenedorTexto1
+  {border: 0px;}
+  .contenedorComent,.contenedorImg2,.contenedorTexto2
+  {border: 0px;}
+  .contenidoIzq{padding-top: 0.5rem;}
+
+  img.post1{margin-top:5rem;}
+.contenedorBuscar, .contenedorOpciones
+  {border: 0px;}
+}
